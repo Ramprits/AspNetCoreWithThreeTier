@@ -8,7 +8,7 @@ namespace DniFruitsKart.UI.Components
 {
     public class InventoryWidget : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync(int threshold = 10)
+        public IViewComponentResult Invoke(int threshold = 10)
         {
             var inventory = new List<InventoryItem>()
             {

@@ -9,6 +9,7 @@
         <link href="~/css/bootstrap.min.css" rel="stylesheet" />
         <link href="~/css/demo.css" rel="stylesheet" />
         <link href="~/css/now-ui-kit.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </environment>
     <environment names="Staging,Production">
         <link href="~/css/now-ui-kit.css" rel="stylesheet" />
@@ -17,7 +18,7 @@
     </environment>
     @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
 </head>
-<body>
+<body style="font-family: 'Open Sans', sans-serif;">
     @Html.Partial("_Navigation")
     <div class="container body-content" style="margin-top:20px;">
         @RenderBody()

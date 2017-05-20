@@ -8,7 +8,7 @@ namespace DniFruitsKart.UI.Components
 {
     public class SurveyWidget : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync(int productId)
+        public IViewComponentResult Invoke(int productId)
         {
             var products = new List<SurveyProduct>()
             {
