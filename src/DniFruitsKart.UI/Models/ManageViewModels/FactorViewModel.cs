@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace DniFruitsKart.UI.Models.ManageViewModels
+﻿namespace DniFruitsKart.UI.Models.ManageViewModels
 {
     public class FactorViewModel
     {
